@@ -1,4 +1,5 @@
 import React from 'react'
+import heroImage from '/src/assets/hero_image.png'
 
 function Home() {
   return (
@@ -28,6 +29,9 @@ function Home() {
     
 
   </div>
+</div>
+<div className=' '>
+  <img src={heroImage} alt="" className='h-64 absolute top-[80px] right-[400px]'/>
 </div>
 </div>
 <button className='btn bg-yellow-400 p-2 rounded font-bold'>GET STARTED</button>
